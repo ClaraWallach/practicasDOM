@@ -22,8 +22,78 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
+	box-sizing: border-box;
 }
 
 body{
+	background-color: #F2EBDC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /*100% de la altura de la ventana */
+	text-align: center;
+}
+
+#contenedor{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh; 
+	width: 80vh;
+	max-width: 600px; /*si la pantalla en la que se ve es muy ancho no se estira demasiado*/
 	background-color: #BD9F8B;
+	border: 5px solid #7D5B47
+}
+
+
+h1{
+	font-size: 3rem;
+	width: 100%; /*toda la altura del contendor h1*/
+	margin: 20px 10px; /*(arriba/abajo  costados)*/
+}
+
+p{
+	font-size: 1.5rem;
+	width: 100%;
+	height: 80px;
+	margin: 5px 0; /*(arriba/abajo  costados)*/
+	text-align: center;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	background-color: #7D5B47;
+}
+
+ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+li{
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 80px;
+	margin:5px 0; /*(arriba/abajo  costados)*/
+	border: 4px solid #7D5B47;
+}
+
+
+.fondo-oscuro{
+	background-color: #D9B2A9;
+}
+
+.fondo-claro{
+	background-color: #F5D6CA;
 }
