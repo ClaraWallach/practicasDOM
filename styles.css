@@ -1,0 +1,29 @@
+
+/* Color Theme Swatches in Hex */
+.Neutral-Palette-with-Muted-Pinks-1-hex { color: #F5D6CA; }
+.Neutral-Palette-with-Muted-Pinks-2-hex { color: #D9B2A9; }
+.Neutral-Palette-with-Muted-Pinks-3-hex { color: #F2EBDC; }
+.Neutral-Palette-with-Muted-Pinks-4-hex { color: #BD9F8B; }
+.Neutral-Palette-with-Muted-Pinks-5-hex { color: #7D5B47; }
+
+/* Color Theme Swatches in RGBA */
+.Neutral-Palette-with-Muted-Pinks-1-rgba { color: rgba(245, 214, 202, 1); }
+.Neutral-Palette-with-Muted-Pinks-2-rgba { color: rgba(217, 178, 169, 1); }
+.Neutral-Palette-with-Muted-Pinks-3-rgba { color: rgba(242, 235, 220, 1); }
+.Neutral-Palette-with-Muted-Pinks-4-rgba { color: rgba(189, 159, 139, 1); }
+.Neutral-Palette-with-Muted-Pinks-5-rgba { color: rgba(125, 91, 71, 1); }
+
+
+/*reset*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+	background-color: #BD9F8B;
+}
